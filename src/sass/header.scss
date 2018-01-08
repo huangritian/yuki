@@ -1,0 +1,155 @@
+@charset "UTF-8";
+$width : 1150px;
+/*头部*/
+.header{
+    $height : 150px;
+    width: 100%;
+    height: $height;
+    background-color: white;
+    border-bottom: 1px solid #d9d9d9;
+/*页眉*/
+    .theheader{
+        $height : 40px;
+        width: 100%;
+        height: $height;
+        background-color: #333333;
+        .t_header{
+            width: $width;
+            margin: 0 auto;
+            .left{
+                float: left;
+                h5{
+                    font-size: 12px;
+                    color: white;
+                    line-height: $height;
+                    float: left;
+                }
+                i{
+                    display: block;
+                    position: relative;
+                    float: left;
+                    width: 50px;
+                    height: $height;
+                    img{
+                        position: absolute;
+                        top: 10px;
+                        left: 20px;
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+            .right{
+                float: right;
+                li{
+                    float: left;
+                    a{
+                        font-size: 12px;
+                        color: white;
+                        line-height: $height;
+                    }
+                    span{
+                        font-size: 12px;
+                        color: white;
+                        line-height: $height;
+                        margin: 0 5px;
+                    }
+                }
+            }
+        }
+    }
+    .head{
+        width: $width;
+        height: 110px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left{
+            p{
+                display: block;
+                width: 150px;
+                height: 80px;
+                margin-top: 10px;
+                a{
+                    display: block;
+                    height: 60px;
+                    width: 150px;
+                    background: url(../images/logo.png) no-repeat;
+                    background-size: 100% 100%;
+                }
+            }
+        }
+        .middle{
+            .search{
+                width: 500px;
+                height: 36px;
+                border: 2px solid #669acc;
+                border-radius: 5px;
+                display: flex;
+                .txt{
+                    outline : none;
+                    width: 429px;
+                    height: 32px;
+                    border: none;
+                    border-radius: 5px;
+                    padding-left: 20px;
+                    color: #929292;
+                    font-size: 12px;
+                    line-height: 30px;
+                }
+                .btn{
+                    background-color: #669acc;
+                    width: 71px;
+                    height: 32px;
+                    padding: 0;
+                    color: white;
+                    font-size: 16px;
+                    line-height: 32px;
+                    text-align: center;
+                }
+            }    
+            ul{
+                display: flex;
+                li{
+                    padding: 0 8px;
+                    a{
+                        color: #999999;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+        .right{
+            width: 130px;
+            height: 36px;
+            border-radius: 5px;
+            border: 1px solid #d9d9d9;
+            margin-right: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            p{
+                color: #333333;
+                font-size: 14px;
+            }
+            img{
+                width: 20px;
+                height: 20px;
+            }
+            .number{
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: #e33955;
+                span{
+                    font-size: 12px;
+                    color: white;
+                    display: block;
+                    line-height: 20px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

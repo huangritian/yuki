@@ -1,0 +1,23 @@
+/*重置样式*/
+html,body,div,p,ul,ol,li,dl,dt,dd,form,table,img,h1,h2,h3,h4,h5,h6,fieldset,legend,header,head,main,footer,section,article,aside,nav,figure,figcaption,video,embed,audio,canvas,input{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+em,i,strong,b,h1,h2,h3,h4,h5,h6{
+	font-style:normal;
+	font-weight:normal; 
+}
+img{
+	varticol-align:top;	
+}
+ol li{
+	list-style:none;
+}
+ul li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+	color:black;
+}
